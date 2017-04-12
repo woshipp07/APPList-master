@@ -1,6 +1,8 @@
 package com.example.gray_dog3.applist;
 
 import android.graphics.drawable.Drawable;
+import android.util.Log;
+
 /**
  * Created by gray_dog3 on 16/3/3.
  */
@@ -17,6 +19,7 @@ public class MyAppInfo {
     }
 
     public Drawable getImage() {
+        Log.v("ddd","dd");
         return image;
     }
 
