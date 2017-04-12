@@ -3,6 +3,7 @@ package com.example.gray_dog3.applist;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         lv_app_list = (ListView) findViewById(R.id.lv_app_list);
         mAppAdapter = new AppAdapter();
         lv_app_list.setAdapter(mAppAdapter);
+        Log.v("ddd","dd");
         initAppList();
     }
 
